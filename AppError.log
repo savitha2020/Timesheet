@@ -1,0 +1,38 @@
+2022-04-05 13:08:39,322:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(34) already exists.
+
+2022-04-05 13:10:14,225:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(34) already exists.
+
+2022-04-05 13:18:40,307:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(37) already exists.
+
+2022-04-05 13:19:59,180:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(37) already exists.
+
+2022-04-05 13:21:45,756:Rotating log:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(37) already exists.
+
+2022-04-05 13:38:48,325:Rotating log:ERROR:Employee Details of emp_id 42 added successfully
+2022-04-05 13:46:28,759:Rotating_log:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(44) already exists.
+
+2022-04-05 13:50:52,908:Console_log:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(47) already exists.
+
+2022-04-05 13:51:48,967:Console_log:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(48) already exists.
+
+2022-04-05 14:53:24,713:Console_log:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(49) already exists.
+
+2022-04-05 15:24:12,704:Console_log:ERROR:<class 'AttributeError'>
+2022-04-05 15:26:27,343:Rotating_log:ERROR:<class 'AttributeError'>
+2022-04-05 15:27:00,180:Rotating_log:ERROR:<class 'AttributeError'>
+2022-04-05 15:27:56,333:Rotating_log:ERROR:<class 'AttributeError'>
+2022-04-05 15:46:51,089:Rotating_log:ERROR:insert or update on table "timesheet" violates foreign key constraint "emp_id"
+DETAIL:  Key (emp_id)=(18) is not present in table "employee".
+
+2022-04-06 06:33:57,144:Rotating_log:ERROR:duplicate key value violates unique constraint "employee_pkey"
+DETAIL:  Key (emp_id)=(51) already exists.
+
